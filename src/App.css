@@ -1,38 +1,79 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: blueviolet;
+  color: greenyellow;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.zodiac {
+  padding: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 5px solid black;
+}
+.zodiac:hover {
+  background-color: indigo;
+  color: bisque;
+}
+.day {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 5px solid black;
+  width: 150px;
+  height: 55px;
+  margin: 15px;
+  text-transform: uppercase;
+}
+.day:hover {
+  background-color: indigo;
+  color: bisque;
+}
+#id {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3#title {
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 15px;
+}
+h3#desc {
+  font-style: italic;
+}
+.btn {
+  padding: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid black;
+  width: 120px;
+  margin-top: 20px;
+}
+.btn:hover {
+  background-color: purple;
+  color: aquamarine;
+}
+#time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
