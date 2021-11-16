@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Zodiac-Sign-Application/static/css/main.8c062f23.chunk.css",
+    "main.js": "/Zodiac-Sign-Application/static/js/main.bf5a2c75.chunk.js",
+    "main.js.map": "/Zodiac-Sign-Application/static/js/main.bf5a2c75.chunk.js.map",
+    "runtime-main.js": "/Zodiac-Sign-Application/static/js/runtime-main.53c0465f.js",
+    "runtime-main.js.map": "/Zodiac-Sign-Application/static/js/runtime-main.53c0465f.js.map",
+    "static/js/2.e9f2edc9.chunk.js": "/Zodiac-Sign-Application/static/js/2.e9f2edc9.chunk.js",
+    "static/js/2.e9f2edc9.chunk.js.map": "/Zodiac-Sign-Application/static/js/2.e9f2edc9.chunk.js.map",
+    "index.html": "/Zodiac-Sign-Application/index.html",
+    "static/css/main.8c062f23.chunk.css.map": "/Zodiac-Sign-Application/static/css/main.8c062f23.chunk.css.map",
+    "static/js/2.e9f2edc9.chunk.js.LICENSE.txt": "/Zodiac-Sign-Application/static/js/2.e9f2edc9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53c0465f.js",
+    "static/js/2.e9f2edc9.chunk.js",
+    "static/css/main.8c062f23.chunk.css",
+    "static/js/main.bf5a2c75.chunk.js"
+  ]
+}
